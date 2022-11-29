@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+body {
+    width: 100%;
+    min-height: 100vh;
+}
+.all {
+    width: 100%;
+    min-height: 100vh;
+    
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    
+    /* background-color: red; */
+}
+.cabeçalho {
+    width: 100%;
+    height: 4rem;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.perfil {
+    padding-top: 0.5rem;
+}
+.logo {
+    padding: 0 10rem 0 1rem;
+}
+.carrinho {
+    padding-right: 1rem;
+}
+.banner {
+    width: 100%;
+    height: 12rem;
+}
+.img-banner {
+    max-width: 100%;
+    height: 100%;
+}
+.catalogo-txt {
+    display: flex;
+    justify-content: space-around;
+}
+.tittle, .produt {
+    padding-top: 1.1rem;
+    font-weight: bold;
+}
+.produt {
+    font-size: 0.7rem;
+}
+.tittle {
+    font-size: 0.8rem;
+}
+hr {
+    background-color: black;
+    padding: 1px;
+    opacity: 15%;
+    margin-top: 0.8rem;
+}
